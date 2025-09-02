@@ -1,3 +1,4 @@
-## 2FA module 1.1.0-8
+## 2FA module 1.1.0-9
 
-* build pacakge + remove googleautheticator files from all users
+* Releasing to stable branch
+* relasing to stable repo

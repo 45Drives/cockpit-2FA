@@ -1,3 +1,10 @@
+cockpit-2fa (1.1.0-9focal) focal; urgency=medium
+
+  * Releasing to stable branch
+  * relasing to stable repo
+
+ -- Rachit Hans <rhans@45drives.com>  Tue, 02 Sep 2025 10:41:42 -0300
+
 cockpit-2fa (1.1.0-8focal) focal; urgency=medium
 
   * build pacakge + remove googleautheticator files from all users
