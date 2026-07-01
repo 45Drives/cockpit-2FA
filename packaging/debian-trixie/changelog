@@ -1,0 +1,107 @@
+cockpit-2fa (1.1.0-8trixie) trixie; urgency=medium
+
+  * build pacakge + remove googleautheticator files from all users
+
+ -- Rachit Hans <rhans@45drives.com>  Thu, 12 Jun 2025 13:27:17 -0300
+
+cockpit-2fa (1.1.0-7trixie) trixie; urgency=medium
+
+  * build pacakge + remove googleautheticator from pam file
+
+ -- Rachit Hans <rhans@45drives.com>  Wed, 11 Jun 2025 11:31:20 -0300
+
+cockpit-2fa (1.1.0-6trixie) trixie; urgency=medium
+
+  * build pacakge + removed user nobody from list
+
+ -- Rachit Hans <rhans@45drives.com>  Mon, 09 Jun 2025 08:54:23 -0300
+
+cockpit-2fa (1.1.0-5trixie) trixie; urgency=medium
+
+  * build pacakge + added list of users without 2fa
+
+ -- Rachit Hans <rhans@45drives.com>  Mon, 09 Jun 2025 08:32:52 -0300
+
+cockpit-2fa (1.1.0-4trixie) trixie; urgency=medium
+
+  * fixed state change of root on 2fa removal
+
+ -- Rachit Hans <rhans@45drives.com>  Fri, 06 Jun 2025 14:27:57 -0300
+
+cockpit-2fa (1.1.0-3trixie) trixie; urgency=medium
+
+  * fixed state change of root on 2fa removal
+
+ -- Rachit Hans <rhans@45drives.com>  Fri, 06 Jun 2025 14:07:59 -0300
+
+cockpit-2fa (1.1.0-2trixie) trixie; urgency=medium
+
+  * added select users method and fixed logs
+
+ -- Rachit Hans <rhans@45drives.com>  Fri, 06 Jun 2025 08:46:17 -0300
+
+cockpit-2fa (1.1.0-1trixie) trixie; urgency=medium
+
+  * screen for root to see 2fa enabled users
+
+ -- Rachit Hans <rhans@45drives.com>  Fri, 06 Jun 2025 07:33:38 -0300
+
+cockpit-2fa (1.0.0-10trixie) trixie; urgency=medium
+
+  * fixing package dependendy installation
+
+ -- Rachit Hans <rhans@45drives.com>  Thu, 05 Jun 2025 10:44:00 -0300
+
+cockpit-2fa (1.0.0-9trixie) trixie; urgency=medium
+
+  * fixing package dependendy installation
+
+ -- Rachit Hans <rhans@45drives.com>  Thu, 05 Jun 2025 10:27:48 -0300
+
+cockpit-2fa (1.0.0-8trixie) trixie; urgency=medium
+
+  * fixing package dependendy installation
+
+ -- Rachit Hans <rhans@45drives.com>  Thu, 05 Jun 2025 10:10:13 -0300
+
+cockpit-2fa (1.0.0-7trixie) trixie; urgency=medium
+
+  * fixing package dependendy installation
+
+ -- Rachit Hans <rhans@45drives.com>  Thu, 05 Jun 2025 09:37:00 -0300
+
+cockpit-2fa (1.0.0-6trixie) trixie; urgency=medium
+
+  * fixing package dependendy installation
+
+ -- Rachit Hans <rhans@45drives.com>  Thu, 05 Jun 2025 09:27:01 -0300
+
+cockpit-2fa (1.0.0-5trixie) trixie; urgency=medium
+
+  * build package + added verification code logic
+
+ -- Rachit Hans <rhans@45drives.com>  Thu, 05 Jun 2025 09:08:52 -0300
+
+cockpit-2fa (1.0.0-4trixie) trixie; urgency=medium
+
+  * build pacakge + make module under tool section + OS detection
+
+ -- Rachit Hans <rhans@45drives.com>  Wed, 04 Jun 2025 08:11:30 -0300
+
+cockpit-2fa (1.0.0-3trixie) trixie; urgency=medium
+
+  * fixed dependency installation
+
+ -- Rachit Hans <rhans@45drives.com>  Tue, 03 Jun 2025 13:09:06 -0300
+
+cockpit-2fa (1.0.0-2trixie) trixie; urgency=medium
+
+  * fixed dependency installation
+
+ -- Rachit Hans <rhans@45drives.com>  Tue, 03 Jun 2025 12:49:24 -0300
+
+cockpit-2fa (1.0.0-1trixie) trixie; urgency=medium
+
+  * developed module and building package
+
+ -- Rachit Hans <rhans@45drives.com>  Mon, 02 Jun 2025 13:08:44 -0300
