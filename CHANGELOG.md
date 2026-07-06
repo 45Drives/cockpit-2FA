@@ -1,4 +1,3 @@
-## 2FA module 1.1.0-9
+## 2FA module 1.2.0-1
 
-* Releasing to stable branch
-* relasing to stable repo
+* adding support  for trixie package
