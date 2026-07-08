@@ -4,7 +4,7 @@
     "title": "2FA module",
     "stable": true,
     "version": "1.2.1",
-    "build_number": "2",
+    "build_number": "3",
     "author": "Rachit Hans <rhans@45drives.com>",
     "git_url": "https://github.com/45Drives/cockpit-zfs-45d",
     "license": "GPL-3.0+",
@@ -29,6 +29,16 @@
             "python3",
             "python3-pip",
             "google-authenticator"
+        ],
+        "debian_common": [
+            "cockpit-ws",
+            "cockpit-bridge",
+            "cockpit-system",
+            "cockpit-storaged",
+            "cockpit-packagekit",
+            "python3",
+            "python3-pip",
+            "libpam-google-authenticator"
         ]
     },
     "builds": [
@@ -70,7 +80,7 @@
     "changelog": {
         "urgency": "medium",
         "version": "1.2.1",
-        "build_number": "2",
+        "build_number": "3",
         "date": null,
         "packager": "Rachit Hans <rhans@45drives.com>",
         "changes": []

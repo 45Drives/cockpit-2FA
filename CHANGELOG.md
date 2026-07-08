@@ -1,3 +1,3 @@
-## 2FA module 1.2.1-2
+## 2FA module 1.2.1-3
 
-* fix: add permissions for release job
+* fix: use explicit cockpit deps for debian to avoid network-manager

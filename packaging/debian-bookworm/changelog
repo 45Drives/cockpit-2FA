@@ -1,3 +1,9 @@
+cockpit-2fa (1.2.1-3bookworm) bookworm; urgency=medium
+
+  * fix: use explicit cockpit deps for debian to avoid network-manager
+
+ -- Rachit Hans <rhans@45drives.com>  Wed, 08 Jul 2026 14:38:16 -0300
+
 cockpit-2fa (1.2.1-2bookworm) bookworm; urgency=medium
 
   * fix: add permissions for release job

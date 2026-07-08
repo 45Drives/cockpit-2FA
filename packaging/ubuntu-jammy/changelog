@@ -1,3 +1,9 @@
+cockpit-2fa (1.2.1-3jammy) jammy; urgency=medium
+
+  * fix: use explicit cockpit deps for debian to avoid network-manager
+
+ -- Rachit Hans <rhans@45drives.com>  Wed, 08 Jul 2026 14:38:16 -0300
+
 cockpit-2fa (1.2.1-2jammy) jammy; urgency=medium
 
   * fix: add permissions for release job
