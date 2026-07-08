@@ -1,3 +1,3 @@
-## 2FA module 1.2.0-1
+## 2FA module 1.2.1-1
 
-* adding support  for trixie package
+* removing cockpit-networkMangaer installation by default on proxmox
