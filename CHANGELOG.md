@@ -1,3 +1,3 @@
-## 2FA module 1.2.1-1
+## 2FA module 1.2.1-2
 
-* removing cockpit-networkMangaer installation by default on proxmox
+* fix: add permissions for release job
