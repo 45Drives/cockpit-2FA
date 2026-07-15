@@ -69,6 +69,8 @@ jobs:
           directory: ${{ github.workspace }}
 
   create_release:
+    permissions:
+      contents: write
     needs:
       - prebuild
       - build

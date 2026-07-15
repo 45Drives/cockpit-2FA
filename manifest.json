@@ -3,14 +3,15 @@
     "name": "cockpit-2fa",
     "title": "2FA module",
     "stable": true,
-    "version": "1.1.0",
-    "build_number": "8",
+    "version": "1.2.1",
+    "build_number": "3",
     "author": "Rachit Hans <rhans@45drives.com>",
     "git_url": "https://github.com/45Drives/cockpit-zfs-45d",
     "license": "GPL-3.0+",
     "architecture": {
         "ubuntu": "all",
-        "rocky": "noarch"
+        "rocky": "noarch",
+        "debian": "all"
     },
     "description": "2 FA for cockpit",
     "defaults": {
@@ -28,6 +29,16 @@
             "python3",
             "python3-pip",
             "google-authenticator"
+        ],
+        "debian_common": [
+            "cockpit-ws",
+            "cockpit-bridge",
+            "cockpit-system",
+            "cockpit-storaged",
+            "cockpit-packagekit",
+            "python3",
+            "python3-pip",
+            "libpam-google-authenticator"
         ]
     },
     "builds": [
@@ -54,7 +65,12 @@
         {
             "group": "debian",
             "os_name": "debian-bookworm",
-            "image": "ci.cr.45d.io/ci/simple/ubuntu-jammy:1"
+            "image": "ci.cr.45d.io/ci/simple/debian-bookworm:1"
+        },
+        {
+            "group": "debian",
+            "os_name": "debian-trixie",
+            "image": "ci.cr.45d.io/ci/simple/debian-trixie:1"
         }
     ],
     "repos": [
@@ -63,12 +79,10 @@
     ],
     "changelog": {
         "urgency": "medium",
-        "version": "1.1.0",
-        "build_number": "8",
-        "date": "2025-06-27T13:24:34.200133",
+        "version": "1.2.1",
+        "build_number": "3",
+        "date": null,
         "packager": "Rachit Hans <rhans@45drives.com>",
-        "changes": [
-            "Releasing to stable branch"
-        ]
+        "changes": []
     }
 }

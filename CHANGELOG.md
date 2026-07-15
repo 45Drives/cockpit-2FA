@@ -1,3 +1,3 @@
-## 2FA module 1.1.0-8
+## 2FA module 1.2.1-3
 
-* build pacakge + remove googleautheticator files from all users
+* fix: use explicit cockpit deps for debian to avoid network-manager
